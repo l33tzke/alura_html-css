@@ -8,28 +8,40 @@ h1,h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+h2{
+	font-size: 30px;
+}
+
 main h1 {
     text-align: center;
     background-color: #851944;
     color: #FFFFFF;
     padding: 25px;
     border-bottom: 10px solid black;
+    font-size: 60px;
+}
+
+aside h1{
+	font-size: 30px;
+	margin-bottom: 25px;
 }
 
 main div {
 	width: 720px;
 	margin: auto;
 	line-height: 1.2;
+	padding: 30px 0;
 }
 
 p {
 	text-align: justify;
+	margin: 20px 0;
 }
 
 blockquote {
 	background-color: #D9E5E3;
 	border: 10px solid #C2CCCA;
-	margin: 0;
+	margin: 20px 40px;
 	width: 250px;
 	box-sizing: border-box;
 }
@@ -61,7 +73,13 @@ aside a {
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
+strong {
+	font-weight: bold;
+}
 
+em {
+	font-style: italic;
+}
 
 
 

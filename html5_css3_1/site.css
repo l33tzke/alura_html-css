@@ -12,7 +12,7 @@ h2{
 	font-size: 30px;
 }
 
-main h1 {
+.main-title {
     text-align: center;
     background-color: #851944;
     color: #FFFFFF;
@@ -21,12 +21,12 @@ main h1 {
     font-size: 60px;
 }
 
-aside h1{
+.aside-title{
 	font-size: 30px;
 	margin-bottom: 25px;
 }
 
-main div {
+.content{
 	width: 720px;
 	margin: auto;
 	line-height: 1.2;
@@ -55,7 +55,7 @@ aside {
 	color: #F2FFFC;
 }
 
-footer {
+.page-footer {
 	background-color: #000;
 	color: #F2FFFC;
 }
@@ -79,6 +79,16 @@ strong {
 
 em {
 	font-style: italic;
+}
+
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.icones-sociais li {
+	display: inline-block;
 }
 
 

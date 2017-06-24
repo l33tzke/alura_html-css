@@ -2,14 +2,11 @@ body {
 	font-family: "Crimson Text", "Times New Roman", serif;
 	background-color: #F2FFFC;
 	font-size: 120%
+	line-height: 1.5;
 }
 
 h1,h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
-}
-
-h2{
-	font-size: 30px;
 }
 
 .main-title {
@@ -19,18 +16,7 @@ h2{
     padding: 25px;
     border-bottom: 10px solid black;
     font-size: 60px;
-}
-
-.aside-title{
-	font-size: 30px;
-	margin-bottom: 25px;
-}
-
-.content{
-	width: 720px;
-	margin: auto;
-	line-height: 1.2;
-	padding: 30px 0;
+    text-transform: uppercase;
 }
 
 p {
@@ -38,7 +24,7 @@ p {
 	margin: 20px 0;
 }
 
-blockquote {
+.citacao {
 	background-color: #D9E5E3;
 	border: 10px solid #C2CCCA;
 	margin: 20px 40px;
@@ -46,18 +32,89 @@ blockquote {
 	box-sizing: border-box;
 }
 
+
+.subtitulo-texto {
+	font-size: 30px;
+	clear: both;
+}
+
+.content{
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+
 blockquote, aside, footer {
 	padding: 20px;
 }
 
-aside {
+.fiat {
+	float: right;
+}
+
+.petro {
+	float: left;
+}
+
+cite {
+	font-style: italic;
+	float: right;
+}
+
+main {
+	float: left;
+	width: 85%;
+	padding-bottom: 80px;
+}
+
+.minha-foto {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.navegacao-site {
+	width: 15%;
+	position: relative;
+	top: 310px;
+	text-align: center;
 	background-color: #3C1D3D;
 	color: #F2FFFC;
+}
+
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+.minha-foto, .navegacao-site {
+	float: right;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+.citacao-bio, .navegacao-site, .rodape-pagina {
+    padding: 20px;
+}
+
+footer {
+	clear: both;
 }
 
 .page-footer {
 	background-color: #000;
 	color: #F2FFFC;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 }
 
 nav a {
@@ -92,4 +149,35 @@ article {
 }
 
 
+nav a {
+	text-transform: lowercase;
+}
 
+.icones-sociais a {
+	width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+.github {
+	background-image: url("github.png");
+}
+
+.twitter {
+	background-image: url(twitter.png);	
+}
+
+.linkedin {
+	background-image: url(linkedin.png);
+}
+
+.rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
